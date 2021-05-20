@@ -8,8 +8,22 @@
 
 body {
     background: #ecf0fe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrap {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 5rem; */
 }
 
+li {
+    list-style: none;
+}
 
 .form,
 .grettings {
@@ -25,8 +39,10 @@ body {
 }
 
 
-h1 {
-
+.clock_container h1 {
+    font-size: 4rem;
+    /* color: #fff; */
+    margin-bottom: 3rem;    
 }
 
 

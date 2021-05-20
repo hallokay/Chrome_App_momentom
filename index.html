@@ -10,21 +10,35 @@
 </head>
 <body>
 
-<div class="clock_container">
-    <h1> 00 : 00 : 00 </h1>
-</div>
-
-<div class="username_container">
-
-    <form action="" class="name_form form">
-        <input type="text" placeholder="이름이 뭐니?" />
-    </form>
+<div class="wrap">
+    <div class="clock_container">
+        <h1> 00 : 00 : 00 </h1>
+    </div>
     
-    <h4 class="greetings"></h4>
+    <div class="username_container">
+    
+        <form action="" class="name_form form">
+            <input type="text" placeholder="이름이 뭐니?" />
+        </form>
+        
+        <h4 class="greetings"></h4>
+    </div>
+    
+    <div class="todo_container">
+        <form action="" class="todo_form">
+            <input type="text" placeholder="what todo?">
+        </form>
+        <ul class="todo_list">
+    
+        </ul>
+    </div>
 </div>
 
   
   <script src="/clock.js"></script>  
    <script src="/greeting.js"></script>
+   <script src="/todo.js"></script>
+
+
 </body>
 </html>
